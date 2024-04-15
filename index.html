@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PIZZA</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="Assets/css/style.css">
+</head>
+<body>
+    <header class="navbar-position"> 
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid me-sm-4 pe-sm-1 ms-md-3 pe-md-1 me-md-1">
+                <a class="navbar-brand" href="#" class="button">Da Ombra</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="true" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse show" id="navbarNav">
+                    <ul class="navbar-nav w-100 me-auto">
+                        <li class="nav-item ms-md-auto active" >
+                            <a class="nav-link" aria-current="page" href="#hero"  class="button">Home</a>
+                        </li>
+                        <li class="nav-item" >
+                            
+                            <a class="nav-link" aria-current="page" href="#cuoco"  class="button">Cuoco</a>
+                        </li>
+                        <li class="nav-item" >
+                           
+                            <a class="nav-link" href="#pizza"  >Pizze</a>
+                        </li>
+                        <li class="nav-item" >
+                          
+                            <a class="nav-link" href="#logos" >Dicono di Noi</a>
+                        </li>
+                        <li class="nav-item" >
+                            
+                            <a class="nav-link" href="#gallery-id" >Galleria</a>
+                        </li>
+                        <li class="nav-item" >
+                         
+                            <a class="nav-link" href="#form-map" >Prenota</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+
+
+    
+    <main> 
+    <!--Hero section--> 
+        <section id="hero" class="hero-section">
+            <div class="container hero mb-5 mt-lg-2 pt-lg-3 mt-md-0 pt-md-0 mt-sm-5 mb-md-5"> <!-- ms if in container then scrolls left and right so avoid it-->
+                <div class="row">
+                    <div  class="col-sm-12 col-md-12 my-lg-5 pb-lg-5 px-lg-1 py-lg-1 mt-sm-5 mb-sm-5 pb-sm-5 pt-sm-0 mt-md-5 mb-md-5 pb-md-5 pt-md-5 text-align-center"> <!-- use the center alignment of the column and not the div-->
+                        <div class="image-fluid mt-sm-1 mb-sm-1">
+                            <div class="opacity-layer"></div>   
+                                <div class="text-container">
+                                    <h2 class="first-text text-uppercase">L'unica. La sola.</h2>         
+                                    <h1 class="text-uppercase"> Pizzeria da ombra  </h1> 
+                                    <h2 class="text-h2">Una pizza fatta da cani</h2>           
+                                    <button class="btn-hover"  onclick="">VEDI DI PIU'</button>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+<!-- parent: relative , child: absolute-->
+<!--second section-->
+        <section id="cuoco" class="section-cuoco"> 
+            <div class="container mb-lg-5 pb-lg-5 mt-lg-0 pt-lg-0 mt-md-5 pt-md-5">
+                <div class="row">
+                    <div class="col-sm-12 col-md-12 col-lg-6">
+                        <h3 class="heading2">IL CUOCO</h3>
+                        <h2 class=" para2 text-uppercase">ombra, il nostro cuoco a 4 zampre, 4 mani lavorano meglio di 2</h2>
+                        <p> Ombra è un simpatico cane dall'energia contagiosa e un amore per la pizza che lo rende un pizzaiolo peloso impeccabile. Con il suo fiuto affinato e la coda scodinzolante, è sempre pronto a creare deliziose prelibatezze croccanti, diffondendo gioia e bontà in ogni fetta.</p>
+                        <div class="row">
+                            <div class="col-sm-12 col-md-6 col-lg-6">
+                                <h4>CODE CONTENTE</h4>
+                                <h3>+2.531</h3>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-6">
+                                <h4>FATTURATO</h4>
+                                <h3>+125 Milioni</h3>
+                            </div>
+                        </div>
+                        <button class="btn-hover"  onclick="">VEDI DI PIU'</button>
+
+
+                    </div>
+
+                    <div class="col-sm-12 col-md-12 col-lg-6 mt-5 pt-5 pe-lg-0 mb-lg-0 ms-0 imagini-cani1 ">
+                        <img id="dog1" src="Assets/Images/dog1.jpg" alt="dog1">
+                        <img id="dog2" src="Assets/Images/dog2.jpg" alt="dog2">
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+
+        <!-- Pizza parte-->
+        <section id="pizza"> 
+            <div class="container mt-3 pt-5 mt-lg-0">
+                <div class="row gx-5">
+                    <div class="col-sm-12 col-md-12 col-lg-6 order-sm-2 order-lg-1 order-md-2 imagini-cani2 mb-4 pb-md-0 pb-lg-0">
+                        <img class="pizza-dog1" src="Assets/Images/dog3.jpg" alt="dog2-1"> 
+                        <img class="pizza-dog2" src="Assets/Images/dog4.jpg" alt="dog2-2"> 
+                    </div>
+    
+                    <div class="col-sm-12 col-md-12 col-lg-6 order-sm-1 order-lg-2 order-md-2 text-cani2 mb-sm-3">
+                        <h3>LE NOSTRE PIZZE</h3>
+                        <h2 class="sottotext-2"> CI PIACE LA COTTURA A DENTE CANINO. 
+                            PROPONIAMO 3 PIZZE MA FATTE CON AMORE </h2>
+                        <p>Nella pizzeria canina di Ombra, 
+                            le tre specialità sono un trionfo di gusti e aromi unici. </p>
+                            <ul> 
+                                <li> La "Zampa Margherita" delizia con la freschezza della mozzarella e il profumo del basilico</li>
+                                <li> La "Crosta Carnivora" bufalina con un tripudio di salumi selezionati </li>
+                                <li> la "Pasticcio di Pollo" avvolge i palati con il sapore succulento del pollo e una cremosa salsa barbecue. </li>
+                            </ul>
+                        <button class="btn-hover"  onclick="" >VEDI DI PIU'
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <!-- section Logos-->
+    
+        <section id="logos"> 
+            <div class="container mt-5">
+                <div class="row text-black-bg mt-5">
+                    <div class="col-sm-12 col-md-12 col-lg-4 p-3">
+                        <h3> SODDISFATTI DI NOI</h3>
+                        <h2> VI SFIDIAMO A PROPORCI UN PROGETTO CHE 
+                            NON SIAMO IN GRADO DI FARE</h2>
+                        <p> 
+                            Caffetteria al cocktail lab, 
+                            dal coffee brewing all’abbinamento cibo e vino. <br>
+                        </p>
+                        <p> 
+                            Avvio e affianco imprenditori emergenti nel mondo della 
+                            caffetteria e del bartending.
+                        </p>
+                        <button class="btn-hover"  onclick="" >VEDI DI PIU'
+                        </button>
+                    </div>
+    
+                    <div class="col-sm-12 col-md-12 col-lg-8 imagini-6">
+                        <div class="row mt-5 ms-0 me-0 py-0 px-0">
+                            <div class="col-4 gx-0 gy-0">
+                                <img class="logo-images" src="Assets/Images/logos/1.png" alt="logo1">
+                            </div>
+    
+                            <div class="col-4  gx-0 gy-0">
+                                <img class=logo-images src="Assets/Images/logos/2.png" alt="logo2">
+                            </div>
+    
+                            <div class="col-4  gx-0 gy-0">
+                                <img class=logo-images src="Assets/Images/logos/3.png" alt="logo3">
+                            </div>
+    
+                            <div class="col-4  gx-0 gy-0">
+                                <img class=logo-images src="Assets/Images/logos/4.png" alt="logo4">
+                            </div>
+    
+                            <div class="col-4  gx-0 gy-0">
+                                <img class=logo-images src="Assets/Images/logos/5.png" alt="logo5">
+                            </div>
+    
+                            <div class="col-4  gx-0 gy-0">
+                                <img class=logo-images src="Assets/Images/logos/6.png" alt="logo6">
+                            </div>
+                        </div>
+                    </div>
+    
+                </div>
+            </div>
+        </section>
+
+        <!--section gallery-->
+        <section id="gallery-id">
+            <div class="container mt-5 mb-5">
+                <div class="row">
+                    <div class="col-sm-12 col-md-12 mb-2 col-lg-12 text-align-right justify-content-right">
+                        <h3> LA GALLERIA </h3>
+                        <h2>ABBIAMO FATTO SCODINZOLARE <br> 
+                            MOLTI CLIENTI CON LE NOSTRE PIZZE</h2>
+                    </div>
+                    <div class="col-sm-12 col-md-12 py-2 m-3 gallery">
+                        <div class="row gx-0 gx-sm-0 mb-sm-0 mt-sm-0">
+                            <div class="col-sm-12 col-md-6 col-lg-4 ">
+                                <img class="img-fit gallery1" src ="Assets/Images/gallery/gallery1.jpg" alt="gallery1">
+                            </div>
+
+                            <div class="col-sm-12 col-md-6 col-lg-4 "> 
+                                <img class="img-fit gallery2" src="Assets/Images/gallery/img2.jpg" alt="gallery2"> 
+                            </div>
+
+                            <div class="col-sm-12 col-md-6 col-lg-4">
+                                <img class="img-fit gallery3" src="Assets/Images/gallery/img5.jpg" alt="gallery3"> 
+                            </div>
+
+                            <div class=" col-sm-12 col-md-6 col-lg-4 ">
+                                <img class="img-fit gallery4" src="Assets/Images/gallery/img1.jpg" alt="gallery4"> 
+                            </div>
+
+                            <div class="col-sm-12 col-md-6 col-lg-4 ">
+                                <img class="img-fit gallery5" src="Assets/Images/gallery/img7.jpg" alt="gallery5"> 
+                            </div>
+
+                            <div class="col-sm-12 col-md-6 col-lg-4  ">
+                                <img class="img-fit gallery6" src="Assets/Images/gallery/gallerynew.jpg" alt="gallery6"> 
+                            </div>                    
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="author">
+            <div class="container mt-5 px-5 py-5 mb-5 d-flex justify-content-center notice">
+                <div class="row">
+                    <div class="col-sm-12 col-md-12 mb-5 px-5">
+                        <p>AGUZZA I DENTI <br>
+                        È L'ORA DELLA PAPPA </p>
+                        <hr class="horizontal-line">
+                        <p style="color:black; font-size:0.5em"> Ombra Tonina </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <section id="form-map">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-7">
+                        <div class="row">
+                            <div class="col-11 col-md-10 col-lg-12 mt-5 ms-md-5 ms-lg-5 me-lg-5 ps-lg-5 pe-lg-5 mb-md-4 pe-md-1 ps-md-1 ms-sm-4 ps-sm-5">
+                                <h3 style="color:white;">RISERVA PER IL BRANCO</h3>
+                                <h2 style="color:white"> PRENOTA UNA CIOTOLA </h2>
+                                <p style="color:white">Avvio e affianco imprenditori emergenti nel mondo della caffetteria e del bartending.</p>
+                            </div>
+
+                            <div class="col-12 col-md-10 col-lg-12 ms-lg-5 ps-lg-5 me-lg-5 pe-lg-5 ms-md-5 pe-md-1 me-md-1 ps-md-1 ms-sm-4 ps-sm-5 ">
+                                <form>
+                                    <div class="row ">
+                                        <div class="col-12 col-md-6 col-lg-4 pe-lg-0 me-lg-0 ge-lg-0 mb-sm-2">
+                                            <label for="name" id="fname">NOME</label><br>
+                                            <input id="name" type="text" name="firstname" placeholder="Joe"><br>
+                                        </div>
+
+                                        <div class="col-12 col-md-6 col-lg-4 ps-lg-0 ms-lg-0 gs-lg-0 pe-lg-0 me-lg-0 ge-lg-0 mb-sm-2">
+                                            <label for="surname" id="lname" >COGNOME</label><br>
+                                            <input id="surname" type="text" name="lname" placeholder="Doe"><br>
+                                        </div>
+                                
+                                        <div class="col-12 col-md-6 col-lg-4 ps-lg-0 ms-lg-0 gs-lg-0 pe-lg-0 me-lg-0 ge-lg-0 mb-sm-2">
+                                            <label for="mobile" id="cellular" >CELLULARE</label><br>
+                                            <input id="mobile" type="number" name="cellular" placeholder="003945671290"><br>
+                                        </div>
+
+                                        <div class="col-12 col-md-6 col-lg-4 pe-lg-0 me-lg-0 ge-lg-0 mb-sm-2">
+                                            <label for="people" id="quantita">IN QUANTI</label><br>
+                                            <input id="people" type="number" name="quantita" placeholder="10"><br>
+                                        </div>
+
+                                        <div class="col-12 col-md-6 col-lg-4 ps-lg-0 ms-lg-0 gs-lg-0 pe-lg-0 me-lg-0 ge-lg-0 mb-sm-2">                                       
+                                            <label for="date"  id="giorno" >GIORNO</label><br>
+                                            <input id="date" type="text" name="giorno" placeholder="24.3.2024"><br>
+                                        </div>
+
+                                        <div class="col-12 col-md-6 col-lg-4 ps-lg-0 ms-lg-0 gs-lg-0 pe-lg-0 me-lg-0 ge-lg-0 mb-sm-2">
+                                            <label for="turn" id="turno" >TURNO</label><br>
+                                            <input id="turn" type="text" name="turno" placeholder="Sera"><br>
+                                        </div>
+
+                                        <div class="com-12 col-md-12 col-lg-12 py-md-0 me-1 mb-sm-2">
+                                            <label for="message" id="messagio">MESSAGIO</label><br>
+                                            <textarea id="message" name="message" placeholder="Messagio"></textarea>                                        
+                                        </div>
+
+                                        <div class="col-12 col-md-12 col-lg-12 py-lg-0 me-lg-0 mt-5 mb-sm-2 mb-sm-2 mb-2">
+                                            <div class="row">
+                                                <div class="col-auto col-md-auto col-lg-auto pt-4">
+                                                    <input id="checkbox" type="checkbox" name="checkbox required" placeholder="">
+                                                </div>
+                                                <div class="col-8 col-md-10 col-lg-11 pt-4">
+                                                    <label for="checkbox" id="box-message">Dichiaro di aver letto e accettato la Privacy Policy del sito.</label>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                </form>
+                                <p><button type="button" class="btn-hover col-sm-12 col-md-12 col-lg-6 ms-lg-0 ps-lg-1 mt-4" style="width:5rem" onclick="formSubmit()" >INVIA
+                                </button></p>
+                                    <div class="col-4">
+                                        <div id="success" class="alert alert-success mt-4" role="alert">"Well done! Submitted" 
+                                        </div>
+                                        <div id="error" class="alert alert-danger d-none mt-4" role="alert">There was an error.
+                                        </div>
+                                        <div id="loading" class="alert alert-warning d-none mt-4" role="alert">"In process of submission, please wait"
+                                        </div>
+                                    </div>                                
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-12 col-md-6 col-lg-5 no-right-padding">
+                        <div style="overflow:hidden;width:100%;height:100%; min-width:50%; min-height:90vh">
+                            <div id="canvas-for-googlemap" style="height:100%; width:100%; min-width:50%; min-height:95vh">
+                                <iframe style="height:100%;width:100%;min-width:50%; min-height:90vh; border:0" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=CiEffe+srl,+Via+del+Brennero,+Trento,+Autonomous+Province+of+Trento,+Italy&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <footer class="row row-cols-1 row-cols-sm-1 row-cols-md-5 pt-lg-5 ps-lg-5 me-lg-0 mt-lg-0 pb-lg-5 footer-section">
+        <div class="col-sm-10 col-md-5 col-lg-3 pb-lg-5 mt-lg-5 pt-lg-5 align-items-center ms-lg-1 me-lg-0 pe-lg-0 ms-md-5 ps-md-5 pt-md-0 ms-sm-5 ps-5 mt-5 pt-sm-5 pb-sm-5">
+            <h4>NOME DEL BRAND</h4>
+            <p>Avvio e affianco imprenditori emergenti nel mondo della caffetteria e del bartending.</p>
+        </div>
+        
+        <div class="col-sm-12 col-md-5 col-lg-4 mt-lg-5 pt-lg-5  ms-lg-3 ps-lg-2 ms-md-5 ps-md-5 pb-md-3 pt-md-5 ps-5 pb-sm-5">
+            <h4>CONTATTI</h4>
+            <ul class="nav flex-column">
+                <li>Dimitri Cell: <a  href="lel:+39 388 631 3671" class="list-item-footer">+39 388 631 3671</a></li>
+                <li>Dimitri Mail: <a href="mailto:dettagliostudio.it@gmail.com" class="list-item-footer">dettagliostudio.it@gmail.com</a></li>
+                <li>Samuele Cell: <a href="tel:+39 388 631 3671" class="list-item-footer"> +39 348 998 2584</a></li>
+                <li>Samuele Mail: <a href="mailto:info@sammosna.it" class=" list-item-footer">info@sammosna.it</a></li>
+            </ul>
+        </div>
+        
+        <div class="col-sm-12 col-md-5 col-lg-1 mt-lg-5 pt-lg-5 ms-lg-3 ps-lg-2 me-lg-3 mt-lg-5 ms-md-5 ps-md-5 pb-md-5 mb-md-5 ps-5 pb-4 pt-4 pb-md-0 pt-md-0">
+            <h4>SOCIAL</h4>
+            <ul class="nav flex-column ">
+                <li class="list-item-footer">Instagram:</a></li>
+                <li class="list-item-footer">Facebook:</li>
+                <li class="list-item-footer">Linkedin:</li>
+            </ul>
+        </div>
+        
+        <div class="col-sm-12 col-md-5 col-lg-3 mt-lg-5 pt-lg-5 ms-lg-2 me-lg-0 ps-lg-3 pe-lg-0 mt-lg-5 ms-md-5 ps-md-5 pb-md-5 mb-md-5 ps-5 mb-5 pb-5">
+            <h4>CREDITS</h4>
+            <ul class="nav flex-column">
+                <li class="list-item-footer"> Nome del Brand &copy 2024</a></li>
+                <li class="list-item-footer">Fatto con 🤍 da <a class="links" href="https://www.dettagliostudio.it/">Dimitri</a> e <a class="links" href="https://sammosna.it/">Samuele</a></li>
+            </ul>
+        </div>
+        
+    
+        
+    </footer>
+
+
+    <script src ="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
+
+
+
+
