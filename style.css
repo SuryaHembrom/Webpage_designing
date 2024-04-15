@@ -1,0 +1,456 @@
+body{
+    overflow-x: hidden;
+}
+
+/*navigation bar*/
+.navbar-position{
+    position: fixed !important;
+    top:0;
+    left:0; 
+    width: 100%;
+    z-index:500; 
+    background-color: rgb(243, 242, 242);
+}
+
+/*.navbar-collapse{
+    flex-basis: 100%;
+    flex-grow: 1;
+    align-items: center;
+}*/
+
+/*.show{
+    display: block;
+}*/
+
+/*.hide {
+    display: none;
+}*/
+
+/*.navbarNav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    visibility: hidden;
+    position: fixed;
+}
+
+
+
+/*hero section*/
+.hero{
+    position: relative;
+    scroll-margin-top: 20px;
+}
+
+h1{             
+    font-size:4rem;
+    text-shadow: 5%;
+}
+
+.image-fluid{
+    background-image: url("../Images/background_pizza.jpg");
+    border-radius: 15px 15px 15px 15px;
+    background-color: #cccccc;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed ; 
+    width: 100%;
+    height: 85vh; 
+    overflow: hidden;
+}
+
+
+.first-text{
+    font-size:30px;  
+}
+
+.opacity-layer{
+    position: relative;
+    background-color: black; 
+    height:85vh;
+    width: 100%;
+    opacity:0.3;  
+}
+
+.text-h2{
+    font-size: 30px;
+    line-height: 1.5;
+    text-shadow: 15%;
+    -webkit-text-stroke: 0.35px black;
+}
+
+/* absolute to the relative position of the parent container*/  
+.text-container{
+        margin-top: 5%; 
+        position: absolute; 
+        text-align: center;
+        justify-content: center;
+        top:50%;
+        left:50%;
+        transform: translate(-50%, -50%); 
+        text-shadow: 20px 20px 20px black;
+        color: white;
+        -webkit-text-stroke: 0.2px black;          
+}   
+
+/*section of CUOCO*/
+#cuoco{
+    scroll-margin-top: 60px;
+}
+
+.heading2{
+    font-size:1.5rem;  
+}
+
+.para2{
+    font-size: 2.5rem;
+}
+
+.imagini-cani1{
+    position: relative;
+    min-width: 400px;
+    min-height: 400px;
+}
+
+#dog1{
+    position: absolute;
+    height: 75%;
+    width: 60%;
+    object-position: right;
+    top:0; 
+    object-fit: cover;
+    right: 0; 
+    z-index:50;
+    box-shadow: 5px 5px lightblue;
+    border-radius: 5px 5px 5px 5px; 
+    outline-color: lightskyblue; 
+    outline-width: 0.4;
+    margin-right:3%; 
+}
+
+#dog2{
+    position: absolute;
+    height: 75%; 
+    width: 60%;
+    top: 30%; 
+    left:30%;
+    object-fit: cover;
+    z-index:100; 
+    box-shadow: 5px 5px lightblue;
+    border-radius: 5px 5px 5px 5px;
+    outline-color: lightskyblue;
+    outline-width: 0.4;  
+}
+
+#dog1:hover{
+    z-index:500
+}
+
+/*section of pizza*/
+#pizza{
+    scroll-margin-top: 50px;
+}
+
+h2{
+    font-size: 40px; 
+}
+
+.btn-hover{
+    background-color: lightyellow;
+    border-radius: 10px 10px 10px 10px;
+    border-color: lightyellow;
+    width: 160px; 
+    height: 50px; 
+    letter-spacing: 1px; 
+    line-height: 1.5; 
+}
+
+.btn-hover:hover {
+    background-position: 100% ;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    background-color: darkkhaki; 
+}
+
+.text-cani2{
+    left:25%; 
+}
+.imagini-cani2{
+    position: relative;
+    min-width: 400px;
+    min-height: 400px;  
+}
+
+.pizza-dog1{
+    object-fit: cover; 
+    width: 50%; 
+    height: 80%; 
+    top: 0; 
+    left:10; 
+    position: absolute; 
+    z-index: 50;   
+    box-shadow:10px 10px 5px lightblue;
+    border-radius: 10px 10px 10px 10px ;  
+}
+
+.pizza-dog2{
+    object-fit: cover; 
+    width: 50%; 
+    height: 90%; 
+    bottom: 0; 
+    right: 10%; 
+    position: absolute;
+    z-index: 100;
+    box-shadow: 10px 10px 5px lightblue;
+    border-radius: 10px 10px 10px 10px;  
+}
+
+.pizza-dog1:hover{
+    z-index: 200 ; 
+}
+
+#logos{
+    background-color: black;
+    scroll-margin-top: 50px;
+}
+
+.text-black-bg{
+    color: white; 
+}
+
+
+.imagini-6{
+    position:relative;
+    min-height: 200px;
+    min-width: 200px; 
+}
+.logo-images{
+    object-fit: cover;
+    width: 80%; 
+    height: 100%;
+    padding-left:5%;  
+}
+
+/*gallery section*/
+#gallery-id{
+    scroll-margin-top: 55px;
+}
+
+.gallery{
+    margin:0px;
+    padding:0px;
+}
+
+.gallery1{
+    object-fit: cover;
+    height: 95%;
+    width: 95%;
+}
+
+.gallery2{
+    object-fit: cover;
+    height: 95%;
+    width: 95%;
+}
+
+.gallery3{
+    object-fit: cover;
+    height: 95%;
+    width: 95%;   
+}
+
+.gallery4{
+    object-fit: cover;
+    height: 95%;
+    width: 95%;  
+}
+
+.gallery5{
+    object-fit: cover;
+    height: 95%;
+    width: 95%;    
+}
+
+.gallery6{
+    object-fit: cover;
+    height: 95%;
+    width: 95%;
+}
+
+.notice{
+    font-size: 5em; 
+    text-align: center;
+    line-height: 1;
+}
+
+.horizontal-line{
+    height: 20px;
+    align-items: center;
+    border-width: 10px;
+    width: 20%;
+    justify-content: center;
+    margin:auto; 
+}
+
+#form-map{
+    background-color:rgb(27, 22, 22);
+    margin-bottom: 0; 
+    scroll-margin-top: 50px; 
+}
+
+
+label{
+    line-height: 2;
+}
+
+#fname{
+    color:white; 
+}
+
+#name{
+    color:white; 
+    background: none; 
+    border-right: none; 
+    border-left: none; 
+    border-top: none;
+    width:9rem;   
+}
+
+#quantita{
+    color:white;
+}
+
+#people{
+    color:white;
+     background: none;
+      border-right: none; 
+      border-left: none; 
+      border-top: none;
+      width:9rem;       
+}
+
+#lname{
+    color:white ; 
+}
+
+#surname{
+    color:white; 
+    background: none; 
+    border-right: none; 
+    border-left: none; 
+    border-top: none;
+    width:9rem;    
+}
+
+#giorno{
+    color:white; 
+}
+
+#date{
+    color:white; 
+    background: none; 
+    border-right: none; 
+    border-left: none; 
+    border-top: none;
+    width:9rem;    
+}
+
+#cellular{
+    color:white; 
+}
+
+#mobile{
+    color:white; 
+    background: none; 
+    border-right: none; 
+    border-left: none; 
+    border-top: none;
+    width:9rem;    
+}
+
+#turno{
+color:white; 
+}
+
+#turn{
+    color:white; 
+    background: none; 
+    border-right: none; 
+    border-left: none; 
+    border-top: none;
+    width:9rem;   
+}
+
+#messagio{
+    color:white; 
+}
+
+#message{
+    color:white; 
+    background-color: grey; 
+    border-right: none; 
+    border-left: none; 
+    border-top: none; 
+    text-align: left; 
+    justify-content: left;
+    width: 90%;
+    height: 120%; 
+}
+
+#box-message{
+    color:white; 
+}
+
+#checkbox{
+    color:white; 
+    background: none; 
+    border-right: none; 
+    border-left: none; 
+    border-top: none; 
+}
+
+.no-right-padding{
+    margin-right:0px !important; 
+    padding-right:0px !important;
+    padding-top:0px; 
+    padding-left:0px !important;
+    border-right: 0px !important; 
+}
+
+#canvas-for-googlemap img{
+    max-height:none;
+    max-width:none;
+    background:none 
+}
+
+.footer-section{
+    color: white; 
+    background-color: black; 
+}
+
+.list-item-footer{
+    color: white;    
+}
+
+.links{
+    color:white; 
+}
+
+
+
+
+
+    
+
+
+
+
